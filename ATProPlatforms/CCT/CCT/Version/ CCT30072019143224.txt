@@ -1,0 +1,118 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20190730143224
+Username: GC\AKlinga
+RunAs User: GC\AKlinga
+Configuration Name: 
+Machine: WBEDL-GTDYPQ2 (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\aklinga\Desktop\Tools_Applications\Powershell\ServerPaths\PPEServerPaths\ATProPlatforms\CCT\CCT\VersionCheckLog.ps1'
+Process ID: 38672
+PSVersion: 5.1.16299.1146
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.1146
+BuildVersion: 10.0.16299.1146
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\aklinga\Desktop\Tools_Applications\Powershell\ServerPaths\PPEServerPaths\ATProPlatforms\CCT\CCT\Version\ CCT30072019143224.txt
+False
+True
+True
+True
+True
+True
+True
+True
+Get-ChildItem : Cannot find path '\\pkh-ppe-app91\Apps\CCTEmailSender' because it does not exist.
+At C:\Users\aklinga\Desktop\Tools_Applications\Powershell\ServerPaths\PPEServerPaths\ATProPlatforms\CCT\CCT\VersionCheck
+Log.ps1:23 char:1
++ Get-ChildItem -Path $source | sort LastWriteTime | select -last 3
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\\pkh-ppe-app91\Apps\CCTEmailSender:String) [Get-ChildItem], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+Get-ChildItem : Cannot find path '\\pkh-ppe-app91\Apps\CCTEmailSender' because it does not exist.
+At C:\Users\aklinga\Desktop\Tools_Applications\Powershell\ServerPaths\PPEServerPaths\ATProPlatforms\CCT\CCT\VersionChec
+kLog.ps1:23 char:1
++ Get-ChildItem -Path $source | sort LastWriteTime | select -last 3
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\\pkh-ppe-app91\Apps\CCTEmailSender:String) [Get-ChildItem], ItemNotFou
+   ndException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+
+
+    Directory: \\pkh-ppe-app92\Apps\CCTEmailSender
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         7/5/2019   4:30 AM                1.0.146.0
+d----l         7/5/2019   4:30 AM                current
+-a----         7/5/2019   4:30 AM             14 current_is_1.0.146.0
+
+
+    Directory: \\pkh-ppe-app91\Apps\CCTScheduler
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         7/5/2019   4:30 AM                1.0.245.0
+d----l         7/5/2019   4:30 AM                current
+-a----         7/5/2019   4:30 AM             14 current_is_1.0.245.0
+
+
+    Directory: \\pkh-ppe-app92\Apps\CCTScheduler
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         7/5/2019   4:30 AM                1.0.245.0
+d----l         7/5/2019   4:30 AM                current
+-a----         7/5/2019   4:30 AM             14 current_is_1.0.245.0
+
+
+    Directory: \\pkh-ppe-app91\Websites\cmasenderwcf.cityindex.co.uk
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         7/5/2019   4:31 AM                1.0.242.0
+d----l         7/5/2019   4:31 AM                current
+-a----         7/5/2019   4:31 AM              9 current_is_1.0.242.0
+
+
+    Directory: \\pkh-ppe-app92\Websites\cmasenderwcf.cityindex.co.uk
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         7/5/2019   4:31 AM                1.0.242.0
+d----l         7/5/2019   4:31 AM                current
+-a----         7/5/2019   4:31 AM              9 current_is_1.0.242.0
+
+
+    Directory: \\PKH-PPE-WEB44\Websites\cmciregistrationapi.cityindex.com
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         7/5/2019   4:31 AM                1.0.246.0
+d----l         7/5/2019   4:31 AM                current
+-a----         7/5/2019   4:31 AM              9 current_is_1.0.246.0
+
+
+    Directory: \\PKH-PPE-WEB45\Websites\cmciregistrationapi.cityindex.com
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         7/5/2019   4:31 AM                1.0.246.0
+d----l         7/5/2019   4:31 AM                current
+-a----         7/5/2019   4:31 AM              9 current_is_1.0.246.0
+**********************
+Windows PowerShell transcript end
+End time: 20190730143230
+**********************

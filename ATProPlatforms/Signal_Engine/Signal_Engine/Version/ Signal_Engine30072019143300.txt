@@ -1,0 +1,45 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20190730143300
+Username: GC\AKlinga
+RunAs User: GC\AKlinga
+Configuration Name: 
+Machine: WBEDL-GTDYPQ2 (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\aklinga\Desktop\Tools_Applications\Powershell\ServerPaths\PPEServerPaths\ATProPlatforms\Signal_Engine\Signal_Engine\VersionCheckLog.ps1'
+Process ID: 9208
+PSVersion: 5.1.16299.1146
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.1146
+BuildVersion: 10.0.16299.1146
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\aklinga\Desktop\Tools_Applications\Powershell\ServerPaths\PPEServerPaths\ATProPlatforms\Signal_Engine\Signal_Engine\Version\ Signal_Engine30072019143300.txt
+True
+True
+
+
+    Directory: \\PKH-PPE-APP156\Apps\PM.SignalEngineService
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        7/17/2019   9:08 AM                0.1.134.0
+d----l        7/17/2019   9:08 AM                current
+-a----        7/17/2019   9:08 AM             14 current_is_0.1.134.0
+
+
+    Directory: \\PKH-PPE-APP157\Apps\PM.SignalEngineService
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        7/17/2019   9:09 AM                0.1.134.0
+d----l        7/17/2019   9:09 AM                current
+-a----        7/17/2019   9:09 AM             14 current_is_0.1.134.0
+**********************
+Windows PowerShell transcript end
+End time: 20190730143302
+**********************

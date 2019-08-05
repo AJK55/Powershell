@@ -1,0 +1,8 @@
+\\pkh-ppe-app91\Apps\CCTEmailSender
+\\pkh-ppe-app92\Apps\CCTEmailSender
+\\pkh-ppe-app91\Apps\CCTScheduler
+\\pkh-ppe-app92\Apps\CCTScheduler
+\\pkh-ppe-app91\Websites\cmasenderwcf.cityindex.co.uk
+\\pkh-ppe-app92\Websites\cmasenderwcf.cityindex.co.uk
+\\PKH-PPE-WEB44\Websites\cmciregistrationapi.cityindex.com
+\\PKH-PPE-WEB45\Websites\cmciregistrationapi.cityindex.com

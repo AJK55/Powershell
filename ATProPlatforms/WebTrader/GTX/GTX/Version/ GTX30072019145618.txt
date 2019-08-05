@@ -1,0 +1,45 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20190730145618
+Username: GC\AKlinga
+RunAs User: GC\AKlinga
+Configuration Name: 
+Machine: WBEDL-GTDYPQ2 (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\aklinga\Desktop\Tools_Applications\Powershell\ServerPaths\PPEServerPaths\ATProPlatforms\WebTrader\GTX\GTX\VersionCheckLog.ps1'
+Process ID: 14376
+PSVersion: 5.1.16299.1146
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.1146
+BuildVersion: 10.0.16299.1146
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\aklinga\Desktop\Tools_Applications\Powershell\ServerPaths\PPEServerPaths\ATProPlatforms\WebTrader\GTX\GTX\Version\ GTX30072019145618.txt
+True
+True
+
+
+    Directory: \\PKH-PPE-WEB46\Websites\trade.loginandtrade.com\dma
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/21/2019   7:52 AM                1.09.120.7797593
+d----l        6/21/2019   7:52 AM                current
+-a----        6/21/2019   7:52 AM             16 current_is_1.09.120.7797593
+
+
+    Directory: \\PKH-PPE-WEB47\Websites\trade.loginandtrade.com\dma
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        6/21/2019   7:51 AM                1.09.120.7797593
+d----l        6/21/2019   7:51 AM                current
+-a----        6/21/2019   7:51 AM             16 current_is_1.09.120.7797593
+**********************
+Windows PowerShell transcript end
+End time: 20190730145619
+**********************

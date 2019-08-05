@@ -1,0 +1,45 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20190730145540
+Username: GC\AKlinga
+RunAs User: GC\AKlinga
+Configuration Name: 
+Machine: WBEDL-GTDYPQ2 (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\aklinga\Desktop\Tools_Applications\Powershell\ServerPaths\PPEServerPaths\ATProPlatforms\StandAlone_Charts\StandAlone_Charts\VersionCheckLog.ps1'
+Process ID: 13008
+PSVersion: 5.1.16299.1146
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.1146
+BuildVersion: 10.0.16299.1146
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\aklinga\Desktop\Tools_Applications\Powershell\ServerPaths\PPEServerPaths\ATProPlatforms\StandAlone_Charts\StandAlone_Charts\Version\ StandAlone_Charts30072019145540.txt
+True
+True
+
+
+    Directory: \\PKH-PPE-WEB46\Websites\trade.loginandtrade.com\charts
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        7/25/2019   9:08 AM                1.2.2.d491bca
+d----l        7/25/2019   9:08 AM                current
+-a----        7/25/2019   9:08 AM             13 current_is_1.2.2.d491bca
+
+
+    Directory: \\PKH-PPE-WEB47\Websites\trade.loginandtrade.com\charts
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        7/25/2019   9:08 AM                1.2.2.d491bca
+d----l        7/25/2019   9:08 AM                current
+-a----        7/25/2019   9:08 AM             13 current_is_1.2.2.d491bca
+**********************
+Windows PowerShell transcript end
+End time: 20190730145543
+**********************
