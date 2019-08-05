@@ -1,0 +1,100 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20190805144307
+Username: GC\AKlinga
+RunAs User: GC\AKlinga
+Configuration Name: 
+Machine: WBEDL-GTDYPQ2 (Microsoft Windows NT 10.0.16299.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 10760
+PSVersion: 5.1.16299.1146
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.16299.1146
+BuildVersion: 10.0.16299.1146
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\aklinga\Desktop\Tools_Applications\Powershell\Logs\PPELogs\MT\GainFeeder\GainFeeder\Logs\ Logs 05082019144307.txt
+
+ \\PKH-PPE-MT01\Logs\MetaTrader4Server\GainFeeder.log
+2019-08-05 19:43:07,418 INFO  - Rate received from TIBCO: EUR/USD\1.12032\1.12054\1\5
+2019-08-05 19:43:07,437 INFO  - Rate handed over to Meta: EUR/USD\1.12032\1.12054\1\5
+2019-08-05 19:43:07,668 INFO  - Rate received from TIBCO: EUR/USD\1.12032\1.12053\1\5
+2019-08-05 19:43:07,692 INFO  - Rate handed over to Meta: EUR/USD\1.12032\1.12053\1\5
+2019-08-05 19:43:08,249 INFO  - Rate received from TIBCO: EUR/USD\1.12030\1.12051\1\5
+2019-08-05 19:43:08,250 INFO  - Rate handed over to Meta: EUR/USD\1.12030\1.12051\1\5
+2019-08-05 19:43:08,500 INFO  - Rate received from TIBCO: EUR/USD\1.12030\1.12050\1\5
+2019-08-05 19:43:08,555 INFO  - Rate handed over to Meta: EUR/USD\1.12030\1.12050\1\5
+2019-08-05 19:43:08,750 INFO  - Rate received from TIBCO: EUR/USD\1.12029\1.12050\1\5
+2019-08-05 19:43:08,759 INFO  - Rate handed over to Meta: EUR/USD\1.12029\1.12050\1\5
+
+ \\PKH-PPE-MT03\Logs\MetaTrader4Server\GainFeeder.log
+2019-08-01 21:11:03,096 DEBUG - GainRatesInterface::Read called
+2019-08-01 21:11:03,096 DEBUG - Wait for new rate in Read call.
+2019-08-01 21:11:03,147 DEBUG - GainRatesInterface::Read called
+2019-08-01 21:11:03,147 DEBUG - Wait for new rate in Read call.
+2019-08-01 21:11:03,198 DEBUG - GainRatesInterface::Read called
+2019-08-01 21:11:03,198 DEBUG - Wait for new rate in Read call.
+2019-08-01 21:11:03,986 ERROR - Channel (PKH-PPE-MT03) connection error, trying reconnect...
+2019-08-01 21:11:03,986 DEBUG - number of streams left in channel client: 0
+2019-08-01 21:11:04,802 DEBUG - ChannelClient Thread Watch Dog: thread live.
+2019-08-01 21:11:04,990 ERROR - Gain ChannelClient (PKH-PPE-MT03) connection error, trying reconnect...
+
+ File DOES NOT exist 
+ \\PKH-PPE-MT05\Logs\MetaTrader4Server\GainFeeder.log
+
+ File DOES NOT exist 
+ \\PKH-PPE-MT07\Logs\MetaTrader4Server\GainFeeder.log
+Test-Path : Access is denied
+At C:\Users\aklinga\Desktop\Tools_Applications\Powershell\Logs\PPELogs\MT\GainFeeder\GainFeeder\GainFeederTail.ps1:6 
+char:8
++     if(Test-Path $source\$file){
++        ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (\\PKH-PPE-MT20\...\GainFeeder.log:String) [Test-Path], 
+UnauthorizedAccessException
+    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.PowerShell.Commands.TestPathCommand
+Test-Path : Access is denied
+At C:\Users\aklinga\Desktop\Tools_Applications\Powershell\Logs\PPELogs\MT\GainFeeder\GainFeeder\GainFeederTail.ps1:6 char:8
++     if(Test-Path $source\$file){
++        ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (\\PKH-PPE-MT20\...\GainFeeder.log:String) [Test-Path], UnauthorizedAccessException
+    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.PowerShell.Commands.TestPathCommand
+
+
+ File DOES NOT exist 
+ \\PKH-PPE-MT20\Logs\MetaTrader4Server\GainFeeder.log
+
+ \\PKH-PPE-MT30\Logs\MetaTrader4Server\GainFeeder.log
+2019-08-02 22:00:06,643 INFO  - Gain Meta Feeder (PKH-PPE-MT30) closed by Meta Trader Server.
+2019-08-02 22:00:07,561 INFO  - Gain Meta Feeder (PKH-PPE-MT30) closed by Meta Trader Server.
+2019-08-02 22:00:27,679 INFO  - GainFeeder plugin v4.02 successfully unloaded.
+2019-08-04 22:00:03,686 INFO  - GainFeeder plugin v4.02 successfully loaded.
+2019-08-04 22:00:03,687 INFO  - FilterReffedRates is true
+2019-08-04 22:00:03,687 INFO  - GainRatesInterface::Connect called
+2019-08-04 22:00:03,714 INFO  - channel connected - _channel_conn_msg_
+2019-08-04 22:00:03,715 INFO  - channel connection ready - _connection_ready_msg_
+2019-08-04 22:00:03,715 INFO  - channel (PKH-PPE-MT30) connection ready.
+
+ \\PKH-PPE-MTD04\Logs\MetaTrader4Server\GainFeeder.log
+2019-08-05 19:43:11,089 INFO  - Rate received from TIBCO: EUR/USD\1.12029\1.12049\1\5
+2019-08-05 19:43:11,340 INFO  - Rate received from TIBCO: EUR/USD\1.12030\1.12048\1\5
+2019-08-05 19:43:11,484 DEBUG - ChannelClient Thread Watch Dog: thread live.
+2019-08-05 19:43:11,591 INFO  - Rate received from TIBCO: EUR/USD\1.12030\1.12049\1\5
+2019-08-05 19:43:13,485 DEBUG - ChannelClient Thread Watch Dog: thread live.
+2019-08-05 19:43:14,063 INFO  - Rate received from TIBCO: EUR/USD\1.12030\1.12047\1\5
+2019-08-05 19:43:14,313 INFO  - Rate received from TIBCO: EUR/USD\1.12026\1.12045\1\5
+2019-08-05 19:43:15,485 DEBUG - ChannelClient Thread Watch Dog: thread live.
+2019-08-05 19:43:15,563 INFO  - Rate received from TIBCO: EUR/USD\1.12030\1.12047\1\5
+2019-08-05 19:43:15,814 INFO  - Rate received from TIBCO: EUR/USD\1.12026\1.12045\1\5
+
+ File DOES NOT exist 
+ \\PKH-PPE-MTD06\Logs\MetaTrader4Server\GainFeeder.log
+
+ File DOES NOT exist 
+ \\PKH-PPE-MTD08\Logs\MetaTrader4Server\GainFeeder.log
+**********************
+Windows PowerShell transcript end
+End time: 20190805144318
+**********************

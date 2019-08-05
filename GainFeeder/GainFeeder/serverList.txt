@@ -1,0 +1,9 @@
+\\PKH-PPE-MT01\Logs\MetaTrader4Server
+\\PKH-PPE-MT03\Logs\MetaTrader4Server
+\\PKH-PPE-MT05\Logs\MetaTrader4Server
+\\PKH-PPE-MT07\Logs\MetaTrader4Server
+\\PKH-PPE-MT20\Logs\MetaTrader4Server
+\\PKH-PPE-MT30\Logs\MetaTrader4Server
+\\PKH-PPE-MTD04\Logs\MetaTrader4Server
+\\PKH-PPE-MTD06\Logs\MetaTrader4Server
+\\PKH-PPE-MTD08\Logs\MetaTrader4Server
